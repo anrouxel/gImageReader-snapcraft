@@ -1,17 +1,24 @@
 = Blockbench Snap
 
-[.text-center]
-image::img/blockbench_logo_text_black.svg[alt="[Project]"]
+++++
+<h1 align="center">
+  <img src="img/blockbench_logo_text_black.svg" alt="[Project]">
+  <br />
+</h1>
 
-[.text-center]
-*This is the snap for Blockbench*, It is a community-maintained package to easily install Blockbench on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.
+<p align="center"><b>This is the snap for Blockbench</b>, It is a community-maintained package to easily install Blockbench on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.</p>
 
-[.text-center]
-_"Blockbench is a boxy 3D model editor"_
+<p align="center"><i>"Blockbench is a boxy 3D model editor"</i></p>
 
-[.text-center]
-https://snapcraft.io/blockbench-snapcraft[image:https://snapcraft.io/blockbench-snapcraft/badge.svg[blockbench-snapcraft]]
-https://snapcraft.io/blockbench-snapcraft[image:https://snapcraft.io/blockbench-snapcraft/trending.svg?name=0[blockbench-snapcraft]]
+<p align="center">
+<a href="https://snapcraft.io/blockbench-snapcraft">
+  <img alt="blockbench-snapcraft" src="https://snapcraft.io/blockbench-snapcraft/badge.svg" />
+</a>
+<a href="https://snapcraft.io/blockbench-snapcraft">
+  <img alt="blockbench-snapcraft" src="https://snapcraft.io/blockbench-snapcraft/trending.svg?name=0" />
+</a>
+</p>
+++++
 
 == Install
 
@@ -22,8 +29,9 @@ snap install blockbench-snapcraft
 
 (https://snapcraft.io/docs/core/install[Don't have snapd installed?])
 
-[.text-center]
-Published for image:https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png[align="top",width=24] with :gift_heart: by anrouxel
+++++
+<p align="center">Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png" align="top" width="24" /> with :gift_heart: by anrouxel</p>
+++++
 
 == Description
 
