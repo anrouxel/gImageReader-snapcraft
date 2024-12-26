@@ -1,85 +1,60 @@
-= Project Snap
+= Blockbench Snap
+
+image::img/blockbench_logo_text_black.svg[align="center"]
+
+[b]
+This is the snap for Blockbench, It is a community-maintained package to easily install Blockbench on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.
+
+[i]
+"Blockbench is a boxy 3D model editor"
 
 [.text-center]
-image::https://avatars1.githubusercontent.com/u/29598503?v=3&s=256[alt="[Project]"]
-[.text-center]
-[Project]
-
-[.text-center]
-*This is the snap for [link:[Link],[Project]]*, _“Single-line elevator pitch for your amazing snap”_. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.
-
-<!-- Uncomment and modify this when you are provided a build status badge
-[.text-center]
-link:https://snapcraft.io/my-snap-name[image:https://snapcraft.io/my-snap-name/badge.svg[alt="enpass"]]
-link:https://snapcraft.io/my-snap-name[image:https://snapcraft.io/my-snap-name/trending.svg?name=0[alt="enpass"]]
--->
-
-<!-- Uncomment and modify this when you have a screenshot
-image::screenshot.png?raw=true[my-snap-name]
--->
-
-[.text-center]
-Published for image:https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png[align="top", width=24] with 💝 by Snapcrafters
+https://snapcraft.io/blockbench-snapcraft[image:https://snapcraft.io/blockbench-snapcraft/badge.svg[blockbench-snapcraft]]
+https://snapcraft.io/blockbench-snapcraft[image:https://snapcraft.io/blockbench-snapcraft/trending.svg?name=0[blockbench-snapcraft]]
 
 == Install
 
-  sudo snap install my-snap-name
+[source,shell]
+----
+snap install blockbench-snapcraft
+----
 
-<!-- Uncomment and modify this when your snap is available on the store
-image:https://snapcraft.io/static/images/badges/en/snap-store-white.svg[link=https://snapcraft.io/my-snap-name, alt="Get it from the Snap Store"]
--->
+(https://snapcraft.io/docs/core/install[Don't have snapd installed?])
 
-([link:https://snapcraft.io/docs/core/install[Don't have snapd installed?]])
+[.text-center]
+Published for image:https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png[align="top",width=24] with :gift_heart: by anrouxel
 
-== Remaining tasks
+== Description
 
-Snapcrafters ([link:https://forum.snapcraft.io/t/snapcrafters-reboot/24625[join us]]) are working to land snap install documentation and the link:https://github.com/snapcrafters/fork-and-rename-me/blob/master/snap/snapcraft.yaml[snapcraft.yaml] upstream so [Project] can authoritatively publish future releases.
+Blockbench is a free, modern model editor for low-poly and boxy models with pixel art textures.
+Models can be exported into standardized formats, to be shared, rendered, 3D-printed, or used in game engines. There are also multiple dedicated formats for Minecraft Java and Bedrock Edition with format-specific features.
 
-  - [x] Click the green "Use this template" button above to create a new repository based on this template
-  - [ ] Give the newly created repository a sensible name, like `godzilla` if you're snapping the Godzilla software (*Note: Do not use `snap` in this name.*)
-  - [ ] Update the description of the repository to `Unofficial snap for [Project]`
-  - [ ] Update logos and references to `[Project]` and `[my-snap-name]`
-  - [ ] Create a snap that runs in `devmode`
-  - [ ] Convert the snap to `strict` confinement, or `classic` confinement if it qualifies
-  - [ ] Register the snap in the store, **using the preferred upstream name**
-  - [ ] Add a screenshot to this `README.md`
-  - [ ] Add install instructions to this `README.md`
-  - [ ] Update snap store metadata, icons and screenshots
-  - [ ] Publish the confined snap in the Snap store beta channel
-  - [ ] Update the install instructions in this `README.md`
-  - [ ] Post a call for testing in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
-  - [ ] Add the Snapcraft store account (snap-advocacy@canonical.com) as a collaborator to your snap in the [Dashboard](https://dashboard.snapcraft.io) and ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to accept this request
-  - [ ] Fix all important issues found during testing
-  - [ ] Make a post in the Snapcraft Forum ["store-requests" category](https://forum.snapcraft.io/c/store-requests/19) asking for a transfer of the snap name from you to Snapcrafters - [link]()
-  - [ ] Ask a [Snapcrafters admin](https://github.com/orgs/snapcrafters/people?query=%20role%3Aowner) to fork your repo into github.com/snapcrafters, and configure the repo for automatic publishing into edge on commit
-  - [ ] Add the provided Snapcraft build badge to this `README.md`
-  - [ ] Publish the snap in the Snap store stable channel
-  - [ ] Update the install instructions in this `README.md`
-  - [ ] Post an announcement in the Snapcraft Forum ["Snapcrafters" category](https://forum.snapcraft.io/c/snapcrafters/23) - [link]()
-  - [ ] Ask the Snap Advocacy team to celebrate the snap - [link]()
-  - [ ] Submit a pull request or patch upstream that adds snap install documentation - [link]()
-  - [ ] Ask upstream if they are interested in maintaining the Snap. If they are:
-  - [ ] Fork the upstream project, add the snap build files and required assets/launchers to that repo and submit a pull request or patch - [link]()
-  - [ ] Add upstream contact information to the `README.md`
-  - If upstream accept the PR:
-    - [ ] Request upstream create a Snap store account
-    - [ ] Add upstream account as a collaborator on the snap
-    - [ ] Contact the Snap Advocacy team to request the snap be transferred to upstream
+Blockbench features a modern and intuitive UI, plugin support and innovative features. It is the industry standard for creating custom 3D models for the Minecraft Marketplace.
 
-If you have any questions, [link:https://forum.snapcraft.io[post in the Snapcraft forum]].
+Website and download: https://www.blockbench.net
 
-<!--
-== The Snapcrafters
+== Contribution
 
-| image:https://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431/?s=128[Your Name] |
-| :---: |
-| link:https://github.com/yourname/[Your Name] |
---> 
+If you are contributing to Blockbench in any way, you must adhere to the Code of Conduct: https://github.com/JannisX11/blockbench/blob/master/CODE_OF_CONDUCT.MD
 
-<!-- Uncomment and modify this when you have upstream contacts
-== Upstream
+* To submit a suggestion or report a bug, please open an issue: https://github.com/JannisX11/blockbench/issues/new
+* If you want to contribute to the Blockbench code, please contact me on Discord: https://discord.gg/sGkj78W
+* If you want to contribute Blockbench translations, you can visit: https://blockbench.net/translations
 
-| image:https://gravatar.com/avatar/bc0bced65e963eb5c3a16cab8b004431?s=128[Upstream Name] |
-| :---: |
-| link:https://github.com/upstreamname[Upstream Name] |
--->
+Thank you!
+
+== Plugins
+
+Blockbench supports Javascript-based plugins. Learn more about creating plugins on https://documentation.blockbench.net
+
+== License
+
+* The Blockbench source-code is licensed under the GPL license version 3. See `LICENSE.MD`.
+* Modifications to the source code can be made under the terms of that license.
+* Blockbench plugins (external scripts) and themes (theme files to customize the design) that interact with the Blockbench API are an exception. Plugins and themes can be created and/or published as open source, proprietary or paid software.
+* All assets created with Blockbench (models, textures, animations, screenshots etc.) are your own!
+
+== Source code
+
+* **Github (compilation):** https://github.com/anrouxel/blockbench-snapcraft.git
+* **Github (source):** https://github.com/JannisX11/blockbench.git
