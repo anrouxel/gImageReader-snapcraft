@@ -1,12 +1,13 @@
 = Blockbench Snap
 
-image::img/blockbench_logo_text_black.svg[align="center"]
+[.text-center]
+image::img/blockbench_logo_text_black.svg[alt="[Project]"]
 
-[b]
-This is the snap for Blockbench, It is a community-maintained package to easily install Blockbench on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.
+[.text-center]
+*This is the snap for Blockbench*, It is a community-maintained package to easily install Blockbench on Ubuntu, Fedora, Debian and other major Linux distributions. It is available in the Snap Store, Ubuntu Software, and a number of other applications.
 
-[i]
-"Blockbench is a boxy 3D model editor"
+[.text-center]
+_"Blockbench is a boxy 3D model editor"_
 
 [.text-center]
 https://snapcraft.io/blockbench-snapcraft[image:https://snapcraft.io/blockbench-snapcraft/badge.svg[blockbench-snapcraft]]
