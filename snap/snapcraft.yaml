@@ -12,6 +12,10 @@ confinement: devmode # use 'strict' once you have the right plugs and slots
 adopt-info: gimagereader
 compression: lzo
 
+layout:
+  /usr/share/tesseract-ocr:
+    bind: $SNAP/usr/share/tesseract-ocr
+
 apps:
   gimagereader:
     extensions: [gnome]
@@ -21,7 +25,6 @@ apps:
       # Included temporarily until https://github.com/snapcore/snapcraft-desktop-integration/issues/28
       # is resolved.
       NOTIFY_IGNORE_PORTAL: 1
-      TESSDATA_PREFIX: $SNAP/usr/share
     plugs:
       - desktop
       - desktop-legacy
@@ -101,6 +104,121 @@ parts:
       - libxml++2.6-2v5
       - libzip4t64
 
+  spellchecker:
+    after: [gimagereader]
+    plugin: nil
+    stage-packages:
+      - hunspell
+      - hunspell-af
+      - hunspell-an
+      - hunspell-ar
+      - hunspell-be
+      - hunspell-bg
+      - hunspell-bn
+      - hunspell-bo
+      - hunspell-br
+      - hunspell-bs
+      - hunspell-ca
+      - hunspell-cs
+      - hunspell-da
+      - hunspell-de-at
+      - hunspell-de-at-frami
+      - hunspell-de-ch
+      - hunspell-de-ch-frami
+      - hunspell-de-de
+      - hunspell-de-de-frami
+      - hunspell-de-med
+      - hunspell-dz
+      - hunspell-el
+      - hunspell-en-au
+      - hunspell-en-ca
+      - hunspell-en-gb
+      - hunspell-en-med
+      - hunspell-en-us
+      - hunspell-en-za
+      - hunspell-eo
+      - hunspell-es
+      - hunspell-eu
+      - hunspell-fr
+      - hunspell-fr-classical
+      - hunspell-fr-comprehensive
+      - hunspell-fr-revised
+      - hunspell-gd
+      - hunspell-gl
+      - hunspell-gu
+      - hunspell-gug
+      - hunspell-he
+      - hunspell-hi
+      - hunspell-hr
+      - hunspell-hu
+      - hunspell-id
+      - hunspell-is
+      - hunspell-it
+      - hunspell-kk
+      - hunspell-kmr
+      - hunspell-ko
+      - hunspell-lo
+      - hunspell-lt
+      - hunspell-lv
+      - hunspell-ml
+      - hunspell-mn
+      - hunspell-ne
+      - hunspell-nl
+      - hunspell-no
+      - hunspell-oc
+      - hunspell-pl
+      - hunspell-pt-br
+      - hunspell-pt-pt
+      - hunspell-ro
+      - hunspell-ru
+      - hunspell-si
+      - hunspell-sk
+      - hunspell-sl
+      - hunspell-sr
+      - hunspell-sv
+      - hunspell-sw
+      - hunspell-te
+      - hunspell-th
+      - hunspell-tr
+      - hunspell-uk
+      - hunspell-uz
+      - hunspell-vi
+      - myspell-bg
+      - myspell-cs
+      - myspell-da
+      - myspell-de-de-1901
+      - myspell-el-gr
+      - myspell-en-au
+      - myspell-eo
+      - myspell-es
+      - myspell-et
+      - myspell-fa
+      - myspell-fo
+      - myspell-fr
+      - myspell-fr-gut
+      - myspell-ga
+      - myspell-gd
+      - myspell-gv
+      - myspell-he
+      - myspell-hu
+      - myspell-hy
+      - myspell-nb
+      - myspell-nn
+      - myspell-nr
+      - myspell-ns
+      - myspell-pt
+      - myspell-sk
+      - myspell-sq
+      - myspell-ss
+      - myspell-st
+      - myspell-tl
+      - myspell-tn
+      - myspell-ts
+      - myspell-uk
+      - myspell-ve
+      - myspell-xh
+      - myspell-zu
+      
 package-repositories:
   - type: apt
     ppa: alex-p/tesseract-ocr-devel
