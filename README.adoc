@@ -1,5 +1,3 @@
-= Blockbench Snap
-
 ++++
 <h1 align="center">
   <img src="img/blockbench_logo_text_black.svg" alt="[Project]">
